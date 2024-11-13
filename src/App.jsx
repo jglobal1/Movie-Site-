@@ -2,11 +2,11 @@ import React from 'react'
 import './index.css';
 import Header from './Header';
 import Slider from './Slider';
-import ProductionHouse from './AniminationSeries.jsx/ProductionHouse';
-import GenreMovieList from './AniminationSeries.jsx/GenreMovieList';
-import MovieRecommendation from './AniminationSeries.jsx/MovieRecommendation';
-import Animated from './AniminationSeries.jsx/Animated';
-import Footer from './AniminationSeries.jsx/Footer';
+import ProductionHouse from './Components/ProductionHouse';
+import GenreMovieList from './Components/GenreMovieList';
+import MovieRecommendation from './Components/MovieRecommendation';
+import Animated from './Components/Animated';
+import Footer from './Components/Footer';
 
 const App = () => {
   return (
