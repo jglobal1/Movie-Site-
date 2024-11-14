@@ -11,7 +11,7 @@ const MovieRecommendation = () => {
   useEffect(() => {
     const fetchMovies = async () => {
       try {
-        const token = 'YOUR_API_KEY'; // Replace with your actual token
+        const token = '2bbb014c61a2b44c237ad5e571bef752'; // Replace with your actual token
 
         // API URL for fetching popular movies
         const apiUrl = 'https://api.themoviedb.org/3/movie/popular';

@@ -21,7 +21,7 @@ const Animated = () => {
 
   // Fetch movies based on the search query
   const getMovieRequest = async (query) => {
-    const url = `http://www.omdbapi.com/?s=${query}&apikey=60c3d1c`;
+    const url = `https://www.omdbapi.com/?s=${query}&apikey=60c3d1c`;
     const response = await fetch(url);
     const responseJson = await response.json();
     if (responseJson.Search) {

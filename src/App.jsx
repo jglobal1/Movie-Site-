@@ -7,6 +7,7 @@ import GenreMovieList from './Components/GenreMovieList';
 import MovieRecommendation from './Components/MovieRecommendation';
 import Animated from './Components/Animated';
 import Footer from './Components/Footer';
+import Film from './Components/Film';
 
 const App = () => {
   return (
@@ -14,8 +15,7 @@ const App = () => {
      <Header />
      <Slider />
      <ProductionHouse />
-     <GenreMovieList />
-     <MovieRecommendation />
+    {/* <Film /> */}
      <Animated />
      <Footer />
     </div>
